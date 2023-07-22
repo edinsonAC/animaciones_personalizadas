@@ -1,4 +1,4 @@
-import 'package:animaciones_personalizadas/src/retos/cuadrado_animado_sreen.dart';
+import 'package:animaciones_personalizadas/src/screens/graficas_circulares.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
@@ -8,7 +8,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Material App',
-      home: CuadradoAnimadoScreen(),
+      home: GraficasCircularesScreen(),
     );
   }
 }
