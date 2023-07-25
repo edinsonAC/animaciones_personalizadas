@@ -1,11 +1,10 @@
-
 import 'dart:math';
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
 
 class CircularProgress extends StatefulWidget {
-  CircularProgress({Key? key}) : super(key: key);
+  const CircularProgress({Key? key}) : super(key: key);
 
   @override
   State<CircularProgress> createState() => _CircularProgressState();
@@ -55,7 +54,7 @@ class _CircularProgressState extends State<CircularProgress>
         child: const Icon(Icons.refresh),
       ),
       body: Center(
-        child: Container(
+        child: SizedBox(
           width: 300,
           height: 300,
           // color: Colors.red,
@@ -69,7 +68,7 @@ class _CircularProgressState extends State<CircularProgress>
 }
 
 class _MiRadialProgress extends CustomPainter {
-  final porcentaje;
+  final double porcentaje;
 
   _MiRadialProgress(this.porcentaje);
 

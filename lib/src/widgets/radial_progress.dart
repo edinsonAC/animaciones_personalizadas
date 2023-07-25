@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 class RadialProgress extends StatefulWidget {
   final porcentaje;
   final Color color;
-  final grosorSecundario;
+  final double grosorSecundario;
   const RadialProgress(
       {Key? key,
       this.porcentaje,
